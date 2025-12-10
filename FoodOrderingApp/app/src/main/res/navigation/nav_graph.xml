@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <!-- Splash Screen -->
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.foodorderingapp.ui.SplashFragment"
+        android:label="SplashFragment">
+        <action
+            android:id="@+id/action_splash_to_auth"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <!-- Auth Flow -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.foodorderingapp.ui.auth.LoginFragment"
+        android:label="LoginFragment">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_login_to_admin_dashboard"
+            app:destination="@id/adminDashboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.foodorderingapp.ui.auth.RegisterFragment"
+        android:label="RegisterFragment">
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <!-- User Flow -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.foodorderingapp.ui.user.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_home_to_foodDetail"
+            app:destination="@id/foodDetailFragment" />
+        <action
+            android:id="@+id/action_home_to_cart"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/userProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/foodDetailFragment"
+        android:name="com.example.foodorderingapp.ui.user.FoodDetailFragment"
+        android:label="FoodDetailFragment">
+        <action
+            android:id="@+id/action_foodDetail_to_cart"
+            app:destination="@id/cartFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.foodorderingapp.ui.user.CartFragment"
+        android:label="CartFragment">
+        <action
+            android:id="@+id/action_cart_to_checkout"
+            app:destination="@id/checkoutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="com.example.foodorderingapp.ui.user.CheckoutFragment"
+        android:label="CheckoutFragment" />
+
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.foodorderingapp.ui.user.UserProfileFragment"
+        android:label="UserProfileFragment" />
+
+    <!-- Admin Flow -->
+    <fragment
+        android:id="@+id/adminDashboardFragment"
+        android:name="com.example.foodorderingapp.ui.admin.AdminDashboardFragment"
+        android:label="AdminDashboardFragment">
+        <action
+            android:id="@+id/action_dashboard_to_addFood"
+            app:destination="@id/addFoodFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_orderList"
+            app:destination="@id/orderListFragment" />
+        <action
+            android:id="@+id/action_dashboard_to_userManagement"
+            app:destination="@id/userManagementFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addFoodFragment"
+        android:name="com.example.foodorderingapp.ui.admin.AddFoodFragment"
+        android:label="AddFoodFragment" />
+
+    <fragment
+        android:id="@+id/orderListFragment"
+        android:name="com.example.foodorderingapp.ui.admin.OrderListFragment"
+        android:label="OrderListFragment" />
+
+    <fragment
+        android:id="@+id/userManagementFragment"
+        android:name="com.example.foodorderingapp.ui.admin.UserManagementFragment"
+        android:label="UserManagementFragment" />
+
+</navigation>

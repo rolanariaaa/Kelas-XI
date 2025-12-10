@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "517903383944",
+    "project_id": "foodorderingapp-37949",
+    "storage_bucket": "foodorderingapp-37949.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517903383944:android:cde98416ff3122d07a4e3d",
+        "android_client_info": {
+          "package_name": "com.example.foodorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517903383944-s0g1c47hgebo71n3jt0bte5o8gjd12ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkSEmItwdsACc5gAztqkICeCoCpl2_7OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517903383944-s0g1c47hgebo71n3jt0bte5o8gjd12ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517903383944:android:8bde754b7165ce4b7a4e3d",
+        "android_client_info": {
+          "package_name": "com.foodorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517903383944-a4fja2f3st9glflujbfinpilmqhc14c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodorderingapp",
+            "certificate_hash": "1e17eae29dca22ce332567d11d3f4f98058ff66c"
+          }
+        },
+        {
+          "client_id": "517903383944-s0g1c47hgebo71n3jt0bte5o8gjd12ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkSEmItwdsACc5gAztqkICeCoCpl2_7OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517903383944-s0g1c47hgebo71n3jt0bte5o8gjd12ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+  "plugins": {
+    "android": {
+      "namespace": "com.example.foodorderingapp"
+    },
+    "kotlin": {
+      "android": {}
+    },
+    "google-services": {}
+  }
+}
