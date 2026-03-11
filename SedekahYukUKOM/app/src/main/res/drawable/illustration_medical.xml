@@ -1,0 +1,92 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="180dp"
+    android:viewportWidth="200"
+    android:viewportHeight="180">
+    
+    <!-- Background gradient -->
+    <path
+        android:fillColor="#667EEA"
+        android:pathData="M0,0 L200,0 L200,180 L0,180 Z"/>
+    
+    <!-- Gradient overlay -->
+    <path
+        android:fillColor="#40F093FB"
+        android:pathData="M0,0 L200,0 L200,180 L0,180 Z"/>
+    
+    <!-- Hospital building -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,60 L50,140 L150,140 L150,60 Z"/>
+    
+    <!-- Hospital cross -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M90,70 L90,100 L110,100 L110,70 Z"/>
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M80,80 L80,90 L120,90 L120,80 Z"/>
+    
+    <!-- Windows grid -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M60,110 L60,120 L70,120 L70,110 Z"/>
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M80,110 L80,120 L90,120 L90,110 Z"/>
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M110,110 L110,120 L120,120 L120,110 Z"/>
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M130,110 L130,120 L140,120 L140,110 Z"/>
+    
+    <!-- Doctor/medical staff figure -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M30,150 C30,145 32,140 35,140 C38,140 40,145 40,150 L40,160 L30,160 Z"/>
+    
+    <!-- Head -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M35,135 C35,135 30,132 30,128 C30,124 32,120 35,120 C38,120 40,124 40,128 C40,132 35,135 35,135 Z"/>
+    
+    <!-- Medical bag -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M160,130 L160,145 L180,145 L180,130 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M165,135 L165,140 L175,140 L175,135 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M168,132 L168,143 L172,143 L172,132 Z"/>
+    
+    <!-- Ambulance icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M145,150 L145,165 L175,165 L175,150 Z"/>
+    <path
+        android:fillColor="#424242"
+        android:pathData="M150,165 C150,165 148,167 150,169 C152,171 154,169 154,169 Z"/>
+    <path
+        android:fillColor="#424242"
+        android:pathData="M166,165 C166,165 164,167 166,169 C168,171 170,169 170,169 Z"/>
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M155,154 L155,161 L165,161 L165,154 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M158,156 L158,159 L162,159 L162,156 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M159,155 L159,160 L161,160 L161,155 Z"/>
+    
+    <!-- Hearts floating -->
+    <path
+        android:fillColor="#40E91E63"
+        android:pathData="M25,40 C25,40 20,35 17,32 C15,30 15,27 17,25 C19,23 23,24 25,27 C27,24 31,23 33,25 C35,27 35,30 33,32 C30,35 25,40 25,40 Z"/>
+    <path
+        android:fillColor="#40E91E63"
+        android:pathData="M175,35 C175,35 170,30 167,27 C165,25 165,22 167,20 C169,18 173,19 175,22 C177,19 181,18 183,20 C185,22 185,25 183,27 C180,30 175,35 175,35 Z"/>
+</vector>

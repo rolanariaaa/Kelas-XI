@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base background -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="0"
+                android:startColor="#E8F5E9"
+                android:endColor="#C8E6C9"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Green overlay for BAZNAS theme -->
+    <item android:bottom="100dp">
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#1B5E20"
+                android:centerColor="#2E7D32"
+                android:endColor="#388E3C"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Bottom section -->
+    <item android:top="140dp">
+        <shape>
+            <solid android:color="#F1F8E9" />
+        </shape>
+    </item>
+</layer-list>

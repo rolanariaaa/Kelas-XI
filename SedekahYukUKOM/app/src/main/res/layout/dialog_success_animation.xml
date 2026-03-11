@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Success Icon with Animation -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <!-- Outer Ring Animation -->
+        <View
+            android:id="@+id/outerRing"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_success_ring"
+            android:alpha="0.3" />
+
+        <!-- Middle Ring -->
+        <View
+            android:id="@+id/middleRing"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_success_ring"
+            android:alpha="0.5" />
+
+        <!-- Success Checkmark Icon -->
+        <ImageView
+            android:id="@+id/successIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_success_checkmark"
+            android:contentDescription="Success" />
+
+        <!-- Celebration Stars -->
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="top|start"
+            android:src="@drawable/ic_celebration_star"
+            android:alpha="0" />
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="top|end"
+            android:src="@drawable/ic_celebration_star"
+            android:alpha="0" />
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom|start"
+            android:src="@drawable/ic_celebration_star"
+            android:alpha="0" />
+
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/ic_celebration_star"
+            android:alpha="0" />
+    </FrameLayout>
+
+    <!-- Success Text -->
+    <TextView
+        android:id="@+id/tvSuccessTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Transaksi Berhasil!"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:alpha="0" />
+
+    <!-- Amount Text -->
+    <TextView
+        android:id="@+id/tvSuccessAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Rp 50.000"
+        android:textColor="#424242"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:alpha="0" />
+
+    <!-- Message -->
+    <TextView
+        android:id="@+id/tvSuccessMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Semoga menjadi amal jariyah\ndan keberkahan bagi Anda"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:alpha="0" />
+
+    <!-- Reward Points (Optional) -->
+    <LinearLayout
+        android:id="@+id/layoutReward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FFF3E0"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:alpha="0">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_celebration_star"
+            android:contentDescription="Star" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="+50 Poin Berkah"
+            android:textColor="#FF6F00"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- OK Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:text="Lihat Riwayat"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#4CAF50"
+        app:cornerRadius="12dp"
+        android:alpha="0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Tutup"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:backgroundTint="#E0E0E0"
+        app:cornerRadius="12dp"
+        android:textColor="#424242"
+        android:alpha="0" />
+</LinearLayout>

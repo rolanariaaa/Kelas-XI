@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Sedekah Yuk</string>
+    
+    <!-- Splash Screen -->
+    <string name="loading">Memuat…</string>
+    
+    <!-- Authentication -->
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Nama Lengkap</string>
+    <string name="confirm_password">Konfirmasi Password</string>
+    <string name="dont_have_account">Belum punya akun?</string>
+    <string name="already_have_account">Sudah punya akun?</string>
+    <string name="register_here">Daftar di sini</string>
+    <string name="login_here">Masuk di sini</string>
+    <string name="logout">Keluar</string>
+    
+    <!-- Home -->
+    <string name="home">Beranda</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="saldo_sedekah">Saldo Sedekah</string>
+    <string name="total_sedekah">Total Sedekah</string>
+    <string name="menu_sedekah">Sedekah</string>
+    <string name="menu_kampanye">Kampanye</string>
+    <string name="menu_riwayat">Riwayat</string>
+    <string name="menu_artikel">Artikel</string>
+    <string name="menu_profil">Profil</string>
+    
+    <!-- Sedekah -->
+    <string name="pilih_nominal">Pilih Nominal</string>
+    <string name="nominal_custom">Nominal Lainnya</string>
+    <string name="masukkan_nominal">Masukkan nominal sedekah</string>
+    <string name="pilih_metode">Pilih Metode Pembayaran</string>
+    <string name="sedekah_sekarang">Sedekah Sekarang</string>
+    <string name="sedekah_sukses">Sedekah Berhasil!</string>
+    <string name="sedekah_sukses_message">Terima kasih atas sedekah Anda. Semoga menjadi amal jariyah.</string>
+    <string name="simulasi_note">* Ini adalah simulasi, tidak ada transaksi nyata</string>
+    
+    <!-- Kampanye -->
+    <string name="daftar_kampanye">Daftar Kampanye</string>
+    <string name="detail_kampanye">Detail Kampanye</string>
+    <string name="target_dana">Target Dana</string>
+    <string name="terkumpul">Terkumpul</string>
+    <string name="donasi_sekarang">Donasi Sekarang</string>
+    <string name="deskripsi">Deskripsi</string>
+    
+    <!-- Riwayat -->
+    <string name="riwayat_sedekah">Riwayat Sedekah</string>
+    <string name="belum_ada_riwayat">Belum ada riwayat sedekah</string>
+    <string name="status">Status</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="metode_pembayaran">Metode Pembayaran</string>
+    
+    <!-- Artikel -->
+    <string name="artikel_edukasi">Artikel &amp; Edukasi</string>
+    <string name="baca_selengkapnya">Baca Selengkapnya</string>
+    
+    <!-- Profil -->
+    <string name="profil_saya">Profil Saya</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+    
+    <!-- Messages -->
+    <string name="error_empty_email">Email tidak boleh kosong</string>
+    <string name="error_empty_password">Password tidak boleh kosong</string>
+    <string name="error_empty_name">Nama tidak boleh kosong</string>
+    <string name="error_password_mismatch">Password tidak cocok</string>
+    <string name="error_login_failed">Login gagal. Periksa email dan password Anda.</string>
+    <string name="error_register_failed">Registrasi gagal. Silakan coba lagi.</string>
+    <string name="error_nominal_invalid">Nominal tidak valid</string>
+    <string name="error_select_method">Pilih metode pembayaran terlebih dahulu</string>
+    <string name="success_profile_updated">Profil berhasil diperbarui</string>
+    
+    <!-- Misc -->
+    <string name="ok">OK</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="konfirmasi_logout">Apakah Anda yakin ingin keluar?</string>
+</resources>
